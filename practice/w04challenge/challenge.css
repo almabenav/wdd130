@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    background-color: #F4ADEC;
+    background-color: #f4a0c7;
 }
 #home-title {
     font-family: Roboto, Georgia, "Times New Roman", sans-serif;
   }
-
 #all {
     text-align: center;
 }
@@ -14,8 +13,27 @@ body {
     color: white;
 }
 #quote-txt-2 {
-
+    margin: auto;
+    width: 270px;
+    color: white;
+    font-size: 200%
 }
-a:hover {
-    background-color: white;
-    color: steelblue;
+img{
+    width: 160px;
+}
+#quote-autor{
+    font-weight:  bolder;
+    font-family: Roboto, Georgia, "Times New Roman", sans-serif;
+}
+#steps{
+    padding-left: 100px;
+    text-align: justify;
+    font-weight:  bolder;
+    font-family: Roboto, Georgia, "Times New Roman", sans-serif;
+}
+#quote-autor-2{
+    font-weight:  bolder;
+    font-family: Roboto, Georgia, "Times New Roman", sans-serif;
+}
+#home-title:hover {
+    color: black
