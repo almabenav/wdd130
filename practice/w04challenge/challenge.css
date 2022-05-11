@@ -26,6 +26,8 @@ img{
     font-family: Roboto, Georgia, "Times New Roman", sans-serif;
 }
 #steps{
+    margin: auto;
+    width: 400px;
     padding-left: 100px;
     text-align: justify;
     font-weight:  bolder;
@@ -35,5 +37,6 @@ img{
     font-weight:  bolder;
     font-family: Roboto, Georgia, "Times New Roman", sans-serif;
 }
-#home-title:hover {
-    color: black
+#home-title:hover{
+    color: black;
+}
