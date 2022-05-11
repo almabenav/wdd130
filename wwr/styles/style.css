@@ -1,0 +1,85 @@
+#content {
+    max-width: 1600px;
+    margin: auto;
+}
+nav a {
+    text-align: center;
+    color: #EFD09E;
+    text-decoration: none;
+}
+#hero-img {
+    width: 100%;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+.home-title {
+    color: #2a241a
+}
+h4 {
+    color: #2a241a
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+}
+body{
+    background-color: #EFD09E;
+}
+header{
+    background-color: #315659;
+}
+nav a:hover{
+    background-color: #D19C64;
+    color: #EFD09E;
+}
+.logo {
+    width: 80px;
+}
+.icon {
+    width: 80px;
+}
+.book, .join{
+    background-color: #D19C64;
+    color: #2a241a;
+    text-decoration: none;
+}
+.book:hover, .join:hover{
+    background-color: #D19C64;
+    color: #EFD09E
+}
+h2 {
+    color: #2a241a
+}
+#background{
+    background-color: #D19C64;
+}
+.msg{
+    background-color: #315659;
+}
+.msg h2 {
+    color: #EFD09E
+}
+.msg p {
+    color: #EFD09E
+}
+footer{
+    background-color: #315659;
+}
+footer h3 {
+    color: #D19C64;
+    text-decoration: none;
+}
+footer a {
+    color: #D19C64;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #D19C64;
+    text-decoration: none;
+}
