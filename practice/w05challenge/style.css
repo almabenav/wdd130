@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    background-color: gray;   
+}
+#circles{
+    width: 100%;
+}
+#desk{
+    margin: 4%;
+    width: 400px;
+    border-radius: 400px;
+    border: 15px solid rgb(86, 85, 85);
+    display: inline-block;
+}
+#graphic{
+    margin: 4%;
+    width: 400px;
+    border-radius: 400px;
+    border: 15px solid rgb(86, 85, 85);
+    display: inline-block;
+}
+#person{
+    margin: 4%;
+    width: 400px;
+    border-radius: 400px;
+    border: 15px solid rgb(86, 85, 85);
+    display: inline-block;
+}
