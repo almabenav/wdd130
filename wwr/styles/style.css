@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Radio+Canada:wght@600&display=swap');
+
 #content {
     max-width: 1600px;
     margin: auto;
@@ -6,6 +8,8 @@ nav a {
     text-align: center;
     color: #EFD09E;
     text-decoration: none;
+    font-family: 'Francois One', Tahoma, 'Franklin Gothic Medium';
+    padding: 35px;
 }
 #hero-img {
     width: 100%;
@@ -14,10 +18,20 @@ nav a {
     text-align: center;
 }
 .home-title {
-    color: #2a241a
+    color: #2a241a;
+    font-family: 'Francois One', Tahoma, 'Franklin Gothic Medium';
+    font-size: 2em;
+    margin-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #D19C64;
 }
 h4 {
-    color: #2a241a
+    color: #2a241a;
+    font-family: Radio Canada, Helvetica, sans-serif;
 }
 .button-box {
     text-align: center;
@@ -25,55 +39,82 @@ h4 {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
+    margin-bottom: 100px;
 }
-body{
+body {
     background-color: #EFD09E;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
-header{
+header {
     background-color: #315659;
 }
-nav a:hover{
+nav a:hover {
     background-color: #D19C64;
     color: #EFD09E;
 }
 .logo {
     width: 80px;
 }
+#logo_link {
+    padding-top: 5px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
-.book, .join{
+.book, .join {
     background-color: #D19C64;
     color: #2a241a;
     text-decoration: none;
+    font-family: 'Francois One', Tahoma, 'Franklin Gothic Medium';
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
-.book:hover, .join:hover{
+.book:hover, .join:hover {
     background-color: #D19C64;
-    color: #EFD09E
+    color: #EFD09E;
 }
 h2 {
-    color: #2a241a
+    color: #2a241a;
+    font-family: 'Francois One', Tahoma, 'Franklin Gothic Medium';
+    margin: 0;
 }
-#background{
+#background {
     background-color: #D19C64;
 }
-.msg{
+.msg {
     background-color: #315659;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
 }
 .msg h2 {
-    color: #EFD09E
+    color: #EFD09E;
 }
 .msg p {
-    color: #EFD09E
+    color: #EFD09E;
+    font-family: Radio Canada, Helvetica, sans-serif;
+    font-size: 0,8em;
+    padding-bottom: 15px;
 }
-footer{
+footer {
     background-color: #315659;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer h3 {
     color: #D19C64;
     text-decoration: none;
+    font-family: Radio Canada, Helvetica, sans-serif;
 }
 footer a {
     color: #D19C64;
@@ -82,4 +123,7 @@ footer a {
 footer a:hover {
     color: #D19C64;
     text-decoration: none;
+}
+footer .social img {
+    padding-top: 15px;
 }
