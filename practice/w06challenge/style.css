@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+.grid-container {
+    width: 1400px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#title {
+    grid-column: 1/3; 
+    grid-row: 1/2;
+    z-index: 1;
+    font-size: 220px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+#cherries {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    padding: 50px;
+    padding-top: 120px;
+}
+#text {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    color: rgb(143, 24, 24);
+    letter-spacing: 7px;
+    font-weight: bold;
+    font-size: 120px;
+    background-color: rgb(176, 174, 174);
+    padding-top: 400px;
+    text-align: center;
+}
+
