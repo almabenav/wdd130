@@ -12,15 +12,15 @@ Fonts are separated by a | */
   --accent2-color: #2a241a;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Francois One";
-  --paragraph-font: Radio Canada, Helvetica, sans-serif;
+  --heading-font: 'Francois One', Tahoma, 'Franklin Gothic Medium';
+  --paragraph-font: 'Radio Canada', Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-E7DFDA: #315659;  /* headlines on a E7DFDA background */ 
+  --headline-color-on-white: #2a241a;  /* headlines on a E7DFDA background */ 
   --headline-color-on-color: #2a241a; /* headlines on a colored background */ 
-  --paragraph-color-on-E7DFDA: #D19C64; /* paragraph text on a E7DFDA background */ 
-  --paragraph-color-on-color: #2a241a; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #D19C64  ;
+  --paragraph-color-on-white: #D19C64; /* paragraph text on a E7DFDA background */ 
+  --paragraph-color-on-color: #EFD09E; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #315659;
   --nav-link-color: #EFD09E;
   --nav-background-color: #315659;
   --nav-hover-link-color: #EFD09E;
