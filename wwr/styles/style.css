@@ -11,6 +11,10 @@ body {
     max-width: 1600px;
     margin: auto;
 }
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
 nav {
     display: flex;
     justify-content: space-around;
@@ -180,6 +184,90 @@ footer .social img {
     padding-top: 15px;
 }
 
+/* Page 2: Rates/Dates */
+
+#dates-title {
+    text-align: center;
+    margin: 30px;
+    color: #2a241a;
+    text-shadow: 3px 3px 10px rgba(82, 81, 81, 0.818);
+    font-family: 'Francois One', Tahoma, 'Franklin Gothic Medium';
+    font-size: 30px;
+    padding: 15px 100px;   
+}
+#dates-title-2{
+    margin-top: -40px;
+    font-size: 80px;
+}
+#main-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 40px;
+}
+.text-information {
+    text-align: center;  
+    background-color: #efd09e79; 
+    padding: 20px;
+    padding-bottom: 30px;
+    margin-top: 100px;   
+}
+.headings {
+    font-weight:  bolder;
+}
+.dates-table {   
+    margin: auto;
+    text-align: left;
+}
+th {
+    padding: 10px;
+    background-color: #315659;
+    color: white;
+}
+.first-date {
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+.second-date {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.third-date {
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+.fourth-date {
+    grid-column: 5/7;
+    grid-row: 4/5;
+}
+#image-1{
+   grid-column: 1/8;
+   grid-row: 1/2;
+   z-index: -1;
+}
+#image-2{
+    grid-column: 1/8;
+    grid-row: 2/3;
+    z-index: -1;
+ }
+ #image-3{
+    grid-column: 1/8;
+    grid-row: 3/4;
+    z-index: -1;
+ }
+ #image-4{
+    grid-column: 1/8;
+    grid-row: 4/5;
+    z-index: -1;
+ }
+.images{
+    width: 100%;
+}
+main h3 {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -202,8 +290,7 @@ footer .social img {
         display: none;
     }
     .home-title {
-        font-size: 25px;
-        color: #6f7364;
+        font-size: 25px;    
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
@@ -220,4 +307,27 @@ footer .social img {
     footer {
         margin-top: 25px;
     }
+
+    /* Page 2: Rates/Dates */
+
+    #main-container {
+        display: block;
+        height: auto;
+    }
+    
+    .text-information {
+        background-color:#D19C64;
+        text-shadow: 2px 0.5px 5px #2a241a;
+        box-shadow: 10px 1px 15px #2a241a;
+    }
+
+    #dates-title-1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    #dates-title-2 {
+        margin-top: 30px;
+        font-size: 50px;
+    }
 }
+
