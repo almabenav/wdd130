@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: rgb(22, 21, 21);
+}
+.picture {
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    border-radius: 5px;
+}
+.container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+}
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+.texto-tarjeta {
+   background-color: aliceblue;
+   width: 300px;
+   text-align: center;
+   grid-column: 1/4;
+}
+.paragraph {
+    margin: 40px;
+    color: rgb(125, 125, 125);
+    margin-top: -2px;
+}
+.weeks {
+    font-size: 15px;
+    color: rgb(56, 79, 138);
+    margin-bottom: -18px;
+    margin-top: 20px;
+}
+.title {
+    font-size: 30px;
+    font-weight:  bolder;
+    font-family: Roboto, Georgia, "Times New Roman", sans-serif;
+} 
+.bloquedeabajo{
+    background-color: rgb(56, 79, 138);
+    color: aliceblue;
+}
+.read, .views, .comments {
+    font-size: 10px;  
+    margin-top: -15px;  
+}
