@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Poppins:wght@300;500&display=swap');
+
+#content {
+    margin: auto;
+}
+body {
+    margin: 0;
+    font-size: 20px;
+    background-color: #FBF5E4;
+    color: black;
+    font-family: 'Poppins', 'Calibri', 'Veranda';
+}
+#header_grid {
+    width: 600px;
+    margin: auto;
+    height: 350px;
+    justify-items: center;
+}
+nav {
+    display: flex;
+    justify-content:space-around;
+}
+.logo {
+    margin-bottom: -40px;
+}
+nav a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+nav :hover {
+    background-color: #b2b3a86c;
+    padding: 10px;
+    border-radius: 10px;
+}
+h1 {
+    font-family: 'Montserrat', 'Impact';
+}
+#main-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+#hero {
+    grid-column: 1/7;
+    grid-row: 1/2;
+}
+#hero_img {
+    margin: auto;
+    grid-column: 1/7;
+    grid-row: 1/2;
+    z-index: -1;
+}
+#img-community {
+    width: 100%;
+}
+#hero_title {
+    margin-top: 55px;
+    margin-right: 100px;
+    text-align: right;
+}
+#cta_msg {
+    margin-left: 200px;
+    margin-top: 380px;
+}
+#cta_msg h2 {
+    font-size: 20px;
+}
+.visit-startups-button {
+    background-color: #7B9A88;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.visit-startups-button:hover {
+    background-color: #B2B3A8;
+}
+
+#boxes-title {
+    text-align: center;
+    margin: 100px;
+    grid-column: 1/7;
+    grid-row: 2/3;
+}
+#boxes-title h2 {
+    font-size: 40px;
+    margin-bottom: -20px;
+}
+#accessories-box {
+    margin: auto;
+    grid-column: 3/5;
+    grid-row: 3/4;
+}
+#food-box {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+#clothes-box {
+    margin: auto;
+    margin-top: -5px;
+    grid-column: 5/6;
+    grid-row: 3/4;
+}
+#accessories-box img, #food-box img, #clothes-box img {
+    width: 100px; 
+}
+#accessories-box, #food-box, #clothes-box h3 {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 150px;
+}
+#accessories-box:hover, #food-box:hover, #clothes-box:hover {
+    transform: scale(1.1);
+}
+#msg-1 {
+    background-color: #B2B3A8;
+    font-size: 19px;
+    padding: 40px;
+    padding-left: 4%;
+    padding-right: 55% ;
+    text-align: justify;
+    grid-column: 2/6;
+    grid-row: 4/5;
+}
+#img-charts{
+    width: 70%;
+    height: 70%;
+    padding-top: 65px;
+    grid-column: 4/7;
+    grid-row: 4/5;
+    z-index: 1;
+}
+.title {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: 'Montserrat', 'Impact';
+    grid-column: 1/7;
+    grid-row: 5/6;
+}
+#img-woman {
+    margin: auto;
+    width: 400px;
+    box-shadow: -28px -20px 1px 1px #7B9A88;
+    grid-column: 2/4;
+    grid-row: 6/7;
+}
+#msg-2{
+    text-align: justify;
+    margin: 50px;
+    margin-right: 260px;
+    grid-column: 4/7;
+    grid-row: 6/7;
+}
+.enumeracion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    background-color: #b2b3a87c;
+    border-radius: 50px;
+}
+.jj{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 20px;
+    grid-column: 4/5;
+    grid-row: 6/7;
+}
+.pp{
+    padding-left: 100px;
+    grid-column: 4/7;
+    grid-row: 6/7;
+    text-align: justify;
+    margin-right: 250px;
+}
+.pp p{
+    padding-top: 15px;
+}
+#msg-3 {
+    background-color: #B2B3A8;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 25px;
+    grid-column: 1/7;
+    grid-row: 7/8;
+}
+#contact {
+    text-align: center;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    margin-left: 560px;
+    margin-right: 560px;
+    grid-column: 1/7;
+    grid-row: 8/9;
+
+}
+#search input {
+    width: 300px;
+    height: 35px;
+    background: #7B9A88;
+    border: none;
+    font-size: 15px;
+    padding-left: 45px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.search-box input#search::-webkit-input-placeholder {
+    color: black;
+}
+summary {
+    background-color: #7B9A88;
+    width: 300px;
+    height: 35px;
+    border-radius: 20px;
+    margin: auto;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+input {
+    padding: 30px;
+}
+.button {
+    background: #7B9A88;
+    color: #7B9A88;
+}
+footer {
+    background-color: #7B9A88;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around; 
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+footer a:hover {
+    color: #B2B3A8;
+}
+.social h3 {
+    padding-left: 60px;
+}

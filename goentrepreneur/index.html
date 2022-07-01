@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GoEntrepreneur | Home</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <div id="content">
-        <header>
+        <header id="header_grid">
             <a id="logo_link" href="index.html">
                 <img class='logo' src='images/logo_GoEntrepreneur.png' alt='GoEntrepreneur Logo'>
             </a>
@@ -18,93 +19,92 @@
                 <a href="for-investors.html">For Investors</a>
             </nav>
         </header>
-        <div id="hero">
-            <div>
-                <img src="images/community_support.jpg" alt="community support">
+        <main id="main-grid">
+            <div id="hero">
+                <section id="hero_title">               
+                    <h1>AN EXCELLENT OPPORTUNITY TO SUPPORT AND BE SUPPORTED</h1>
+                    <p>Our purpose is to create a community where local business can be supported.</p>
+                </section>
+                <section id="cta_msg">
+                    <h2>Get started by entering this world!</h2>
+                    <div class="entrepreneurs-button">
+                        <a class="visit-startups-button" href="entrepreneurs.html">Visit Startups near you</a>
+                    </div>
+                </section>
             </div>
-            <section>
-                <h1>An excellent opportunity to support and be supported</h1>
-                <p>Our purpose is to create a community where local business can be supported.</p>
-                <h2>Get started by entering this world!</h2>
-                <div class="entrepreneurs-button">
-                    <a href="entrepreneurs.html">Visit Startups near you</a>
-                </div>
-            </section>
-        </div>
-        <main>
-            <div>
+            <div id="hero_img">
+                <img id="img-communtiny" src="images/people-talking.jpg" alt="community support">
+            </div>
+            <div id="boxes-title">
                 <h2>Welcome to GoEntrepreneur!</h2>
                 <p>Check out some of the most popular startups about:</p>
-                <section>
-                    <img src="images/accessories.png" alt="accessories start-ups">
-                    <h3>Accessories</h3>
-                </section>
-                <section>
-                    <img src="images/cutlery.png" alt="food start-ups">
-                    <h3>Food</h3>
-                </section>
-                <section>
-                    <img src="images/clothes-hook.png" alt="clothes start-up">
-                    <h3>Clothes</h3>
-                </section>
             </div>
-            <div>
-                <img src="images/charts.jpg" alt="economy charts">
+            <section id="accessories-box">
+                <img src="images/accessories.png" alt="accessories start-ups">
+                <h3>ACCESSORIES</h3>
+            </section>
+            <section id="food-box">
+                <img src="images/cutlery.png" alt="food start-ups">
+                <h3>FOOD</h3>
+            </section>
+            <section id="clothes-box">
+                <img src="images/clothes-hook.png" alt="clothes start-up">
+                <h3>CLOTHES</h3>
+            </section>
+            <img id="img-charts" src="images/charts.jpg" alt="economy charts">
+            <div id="msg-1">
                 <h2>Venues in Economy</h2>
                 <p>Entrepreneurship in these days means a lot to the economy to keep it dynamic, 
                     alive and proactive. The culture of entrepreneurship helps business ideas to 
                     materialize, expand and become sustainable solutions providing society with 
                     new products and services. Entrepreneurship also promotes innovation, productivity
-                    and employment by creating opportunities.</p>
+                    and employment by creating opportunities.
+                </p>
             </div>
-            <div>
+            <div class="title">
                 <h2>ENTREPRENEURSHIP TODAY</h2>
-                <img src="images/independent-woman.jpg" alt="woman entrepreneurship">
-                <section>
-                    <p>1.</p>
-                    <p>Currently, entrepreneurship represents the need to produce and generate 
-                        with their own resources, either starting with small businesses or the 
-                        simple fact of going from being employees to become employers, thus being 
-                        entrepreneurship something very much seen in these times and also very much 
-                        imposed by previous generations.</p>
-                </section>
-                <section>
-                    <p>2.</p>
-                    <p>Entrepreneurship is presented as an option and a good opportunity for people to
+            </div>
+            <img id="img-woman" src="images/entrepreneur-woman.jpg" alt="woman entrepreneurship">
+            <div class="jj">
+                <p class="enumeracion">1.</p>
+                <p class="enumeracion">2.</p>
+                <p class="enumeracion">3.</p>
+
+            </div> 
+            <div class="pp">
+                <p>Currently, entrepreneurship represents the need to produce and generate 
+                    with their own resources, either starting with small businesses or the 
+                    simple fact of going from being employees to become employers, thus being 
+                    entrepreneurship something very much seen in these times and also very much 
+                    imposed by previous generations.</p>
+                <p>Entrepreneurship is presented as an option and a good opportunity for people to
                         contribute and develop their own ideas and that these are aimed at improving the 
                         quality of life in the society in which it seeks to make the venture.</p>
-                </section>
-                <section>
-                    <p>3.</p>
-                    <p>Little by little it has gained the importance it has always deserved because 
-                        it covers the needs of many people at the moment of looking for and finding an 
-                        economic independence.</p>
-                </section>
-                <div>
-                    <p>We conclude with the positive aspects of entrepreneurship which would be,
-                        independence, autonomy, effort, work and perseverance.</p>
-                </div>
+                <p>Little by little it has gained the importance it has always deserved because 
+                            it covers the needs of many people at the moment of looking for and finding an 
+                            economic independence.</p>
+    
+            </div> 
+            <div id="msg-3">
+                <p>We conclude with the positive aspects of entrepreneurship which would be,
+                    independence, autonomy, effort, work and perseverance.</p>
             </div>
-            <div>
+            <div id="contact">
                 <section>
-                    <h3>Search for startups</h3>
-                    <form action="/my-handling-form-page" method="post">
-                        <p>                      
-                          <input type="search" name="start-up_search" size="4" maxlength="4">
-                      
-                          <input type="submit" value="Search">                     
-                        </p>                     
-                      </form>
+                    <h3>SEARCH FOR STARTUPS</h3>
+                    <div class="search-box">
+                        <span class="icon"><i class="fa fa-search"></i></span>
+                        <input type="search" id="search" placeholder="Search..." />
+                    </div>
                 </section>
                 <section>
-                    <h3>Stay updated</h3>
+                    <h3>STAY UPDATED</h3>
                     <p>You'll be able to receive any notifications of offers, 
                     new products and even new start-ups in your city!</p>
                     <details>
                         <summary>
                             Join with e-mail
-                        </summary>
-        
+                        </summary>       
                         <form action="/my-handling-form-page" method="post">
                             <ul>
                                 <li>
@@ -112,7 +112,7 @@
                                   <input type="email" id="mail" name="user_email">
                                 </li>
                                 <li class="button">
-                                    <button type="submit">Send your e-mail</button>
+                                    <button id="mail-button" type="submit">Send your e-mail</button>
                                 </li>
                             </ul>                  
                         </form>
@@ -121,10 +121,12 @@
             </div>          
         </main>
         <footer>
-            <h3>GoEntrepreneur &copy; 2022 - Alma Benavides</h3>
-            <h3><a href="site_plan.html">Site Plan</a></h3>
-            <h3>Social</h3>
+            <div class="texto-footer">
+                <h3>GoEntrepreneur &copy; 2022 - Alma Benavides</h3>
+                <h3><a href="site_plan.html">Site Plan</a></h3>              
+            </div>           
             <div class="social">
+                <h3>Social</h3>
                 <a href="https://facebook.com" target="_blank">
                     <img src="images/facebook.png" alt="fb icon">
                 </a>
