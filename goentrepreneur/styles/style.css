@@ -28,11 +28,11 @@ nav {
 nav a {
     font-size: 20px;
     color: black;
+    padding: 10px;
     text-decoration: none;
 }
 nav :hover {
     background-color: #b2b3a86c;
-    padding: 10px;
     border-radius: 10px;
 }
 h1 {
@@ -60,7 +60,7 @@ h1 {
     text-align: right;
 }
 #cta_msg {
-    margin-left: 200px;
+    margin-left: 100px;
     margin-top: 500px;
     grid-column: 1/7;
     grid-row: 1/2;
@@ -238,7 +238,8 @@ footer {
     justify-content: space-around; 
 }
 footer a {
-    text-decoration: none;
+    text-decoration: none; 
+    font-weight: bold;
     color: black;
 }
 footer a:hover {
