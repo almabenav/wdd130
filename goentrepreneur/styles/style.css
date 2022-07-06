@@ -259,6 +259,7 @@ footer a:hover {
 .title-page2 {
     font-size: 20px;
     margin: 0 18% 3% 18%;
+    text-shadow: 0.1em 0.1em 0.2em #717171;
     grid-row: 1/2;
 }
 .cta-msg2 {
@@ -308,7 +309,6 @@ footer a:hover {
 }
 .interests-title {
     margin-bottom: 50px;
-    text-shadow: 0.1em 0.1em 0.1em #7B9A88;
     grid-row: 6/7;
 }
 .interests-grid {
