@@ -356,6 +356,9 @@ footer a:hover {
   margin: auto;
 }
 
+.slideshow-container img {
+    width:100%
+}
 /* Hide the images by default */
 .mySlides {
   display: none;
