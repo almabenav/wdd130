@@ -20,8 +20,6 @@
             </nav>
         </header>
        <main class="main-investors">
-            <div id="feedback1"></div>
-            <div id="feedback2"></div>
             <div class="img-hands">
                 <img id= "hands" src="images/people-shaking-hands.jpg" alt="people shaking hands">
             </div>
@@ -74,33 +72,23 @@
                 <h2>Support the new ventures that are emerging in your city!</h2>
             </div>
             <div class="comments-1">
-                <section id="publishing">
+                <div id="feedback1"></div>
+                <div id="publishing">
                     <p>This is a space where they can get in touch and interact to establish working relationships.</p>
-                    <form action="/my-handling-form-page" method="post">
-                        <ul>
-                            <li>
-                              <label for="msg">Add an investment proposal</label>
-                              <textarea id="msg" name="new-relation"></textarea>
-                            </li>
-                            <li class="button">
-                                <button type="submit">Send your proposal</button>
-                            </li>
-                           </ul>                  
+                    <form action="#" method="post">
+                        <label for="msg">Add an investment proposal</label>
+                        <textarea id="msg" name="new-relation" spellcheck="false"></textarea>
+                        <button class="button" type="submit">Send your proposal</button>
                     </form>
-                </section>
+                </div>
             </div>
             <div class="comments-2">
+                <div id="feedback2"></div>
                 <p>And you as an entrepreneur or future entrepreneur can also expose your ideas and what you do.</p>
-                <form action="/my-handling-form-page" method="post">
-                    <ul>
-                        <li>
-                          <label for="msg">Search for investors</label>
-                          <textarea id="msg" name="user_message"></textarea>
-                        </li>
-                        <li class="button">
-                            <button type="submit">Send your proposal</button>
-                        </li>
-                       </ul>                  
+                <form action="#" method="post">
+                    <label for="msg2">Search for investors</label>
+                    <textarea id="msg2" name="user_message"></textarea>
+                    <button class="button" type="submit">Send your proposal</button>              
                 </form>
             </div>
        </main>
@@ -129,32 +117,32 @@
         // get the form so we can read what was entered in it.
         const formElement = document.forms[0];
         // add a 'listener' to wait for a submission of our form. When that happens run the code below.
-        formElement.addEventListener('submit', function(e) {
-        // stop the form from doing the default action.
-        e.preventDefault();
-        // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-        feedbackElement.innerHTML = 'Thank you for reaching out to us to establish a relationship. We will get back with you as soon as possible!';
-        // make the feedback element visible.
-        feedbackElement.style.display = "block";
-        // add a class to move everything down so our message doesn't cover it.
-        document.body.classList.toggle('moveDown');
+        formElement.addEventListener('submit', function (e) {
+            // stop the form from doing the default action.
+            e.preventDefault();
+            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+            feedbackElement.innerHTML = 'Thank you for reaching out to us to establish a relationship. We will get back with you as soon as possible!';
+            // make the feedback element visible.
+            feedbackElement.style.display = "block";
+            // add a class to move everything down so our message doesn't cover it.
+            document.body.classList.toggle('moveDown');
         });
     </script>
     <script>
         // get the feedback div element so we can do something with it.
-        const feedbackElement = document.getElementById('feedback2');
+        const feedbackElement2 = document.getElementById('feedback2');
         // get the form so we can read what was entered in it.
-        const formElement = document.forms[1];
+        const formElement2 = document.forms[1];
         // add a 'listener' to wait for a submission of our form. When that happens run the code below.
-        formElement.addEventListener('submit', function(e) {
-        // stop the form from doing the default action.
-        e.preventDefault();
-        // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-        feedbackElement.innerHTML = ' Thank you for your idea. We will get back with you as soon as possible!';
-        // make the feedback element visible.
-        feedbackElement.style.display = "block";
-        // add a class to move everything down so our message doesn't cover it.
-        document.body.classList.toggle('moveDown');
+        formElement2.addEventListener('submit', function (e) {
+            // stop the form from doing the default action.
+            e.preventDefault();
+            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+            feedbackElement2.innerHTML = ' Thank you for your idea. We will get back with you as soon as possible!';
+            // make the feedback element visible.
+            feedbackElement2.style.display = "block";
+            // add a class to move everything down so our message doesn't cover it.
+            document.body.classList.toggle('moveDown');
         });
     </script>
 </body>
