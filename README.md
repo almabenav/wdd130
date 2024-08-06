@@ -16,6 +16,6 @@ Home: An introduction to the platform and its purpose.
 Entrepreneurship: A section where entrepreneurs can highlight their projects and achievements.  
 For Investors: A dedicated area for investors to explore opportunities and learn how they can get involved.
 
-## Technologies Used
+**Technologies Used**  
 The site is built with HTML and CSS, providing a clean and user-friendly interface to connect entrepreneurs with investors effectively.  
 **Link:** [GoEntrepreneur Page](https://almabenav.github.io/wdd130/goentrepreneur/)
