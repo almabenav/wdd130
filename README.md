@@ -5,7 +5,7 @@ This repository contains the projects and assignments developed during the
 
 
 ## Contents
-**Link:** [Portal Page](https://almabenav.github.io/wdd130/)
+**Link:** [Portal Page](https://almabenav.github.io/wdd130/index)
 
 ### Highlighted Project
 
